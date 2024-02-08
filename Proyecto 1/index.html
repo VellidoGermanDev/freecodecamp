@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css"">
+</head>
+<body>
+  <header>
+    <h1 id="title">Formulario</h1>
+    <p id="description">Tomate el tiempo necesario para completar</p>
+  </header>
+  <main>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Nombre</label>
+        <input id="name" type="text" placeholder="German" required/>  
+        <label id="email-label">Email</label>
+        <input id="email" type="email" placeholder="vellido@hotmail.com" required/>  
+        <label id="number-label">Nombre</label>
+        <input id="number" type="number" placeholder="25" min="18" max="50" required/> 
+      </div>
+      <div>
+        <p>Selecciona una Opción</p>
+        <select id="dropdown">
+        <option>Técnico</option>
+        <option>Programador</option>
+      </select> 
+      </div>
+      <div>
+        <p>Cual es tu nivel</p>
+        <label><input name="user" value="junior" type="radio"/>Junior</label>
+        <label><input name="user" value="SemiSenior" type="radio"/>SemiSenior</label>
+        <label><input name="user" value="Senior" type="radio"/>Senior</label>
+      </div>
+      <div>
+        <p>En que te desempeñas mejor?</p>
+        <label><input name="prefer" value="frond-Ent" type="checkbox"/>Frond-Ent</label>
+        <label><input name="prefer" value="back-End" type="checkbox"/>Back-End</label>
+        <label><input name="prefer" value="data" type="checkbox"/>Data Science</label>
+      </div>
+      <div>
+        <p>Sugeriencias?</p>
+        <textarea>
+        </textarea>
+      </div>
+      <div>
+        <button id="submit" type="submit">
+          Enviar
+        </button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

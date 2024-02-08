@@ -1,0 +1,24 @@
+:root {
+    color: white;
+    background-image: radial-gradient(circle at 100% 100%, #003225 0, #00322d 3.33%, #003235 6.67%, #00323d 10%, #003244 13.33%, #00324b 16.67%, #003251 20%, #003156 23.33%, #00305a 26.67%, #002f5d 30%, #002d60 33.33%, #002b61 36.67%, #002960 40%, #00265f 43.33%, #03235d 46.67%, #1f1f59 50%, #2e1b54 53.33%, #39164f 56.67%, #421049 60%, #490942 63.33%, #4e033b 66.67%, #520034 70%, #55002c 73.33%, #560025 76.67%, #57001d 80%, #560016 83.33%, #55020d 86.67%, #530801 90%, #500e00 93.33%, #4c1300 96.67%, #481800 100%);
+}
+
+body, header, main{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+div{
+border: 3px solid black;
+border-radius: 15px;
+margin: 5px;
+padding: 15px;
+width: 500px;
+}
+
+#name,#email,#number,textarea{
+width: 100%;
+background: none;
+}
